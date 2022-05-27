@@ -14,5 +14,7 @@ function goNews() {
 
 ### HTML button
 ```
-<button onclick="goNews();">News</button>
+<div id="container">
+  <button onclick="goNews();">News</button>
+</div>
 ```
