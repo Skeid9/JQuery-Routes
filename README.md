@@ -3,9 +3,10 @@
 ## Add route for a page
 ```$.router.add('/:item', function(data) {
   $('#container').load('/news.html');
-});
+});```
 
-function goNews() {
+
+```function goNews() {
   $.router.go('/news', 'Title');
 }```
 
